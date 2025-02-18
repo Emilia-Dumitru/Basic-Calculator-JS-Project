@@ -1,0 +1,49 @@
+table {
+    background-color: #666;
+}
+
+td {
+
+    padding: 15px;
+    gap: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #333;
+    cursor: pointer;
+    color: white;
+    background-color: #333;
+    transition: background 0.2s, transform 0.1s;
+}
+
+td:active {
+    background-color: #555;
+    transform: scale(0.95);
+}
+
+
+td:nth-child(4) {
+    background-color: #f39c12;
+}
+
+td:nth-child(4):active {
+    background-color: #e67e22;
+}
+
+
+td:last-child {
+    background-color: #27ae60;
+}
+
+td:last-child:active {
+    background-color: #2ecc71;
+}
+
+
+tr:first-child td {
+    background-color: #666;
+}
+
+tr:first-child td:active {
+    background-color: #777;
+}
